@@ -2,7 +2,7 @@ import functools
 
 from clockdeco import clock
 
-@functools.lru_cache() # <1>
+@functools.lru_cache(maxsize=2) # <1>
 @clock  # <2>
 def fibonacci(n):
     if n < 2:
