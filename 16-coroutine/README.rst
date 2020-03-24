@@ -33,3 +33,14 @@ essentially, this wrapper advance the first yield.
 
 `yield from` is equivelant to `await` in other language but with iterable variable(could be 
 itertable)
+
+
+
+coorperative multitasking: coroutine
+preemptive multitasking: threads
+
+
+
+http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
+https://www.zopatista.com/python/2013/11/26/inplace-file-rewriting/
+http://www.dabeaz.com/generators/
